@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListClusters&k=1:
+  /?Action=ListClusters:
     get:
       summary: ' List Clusters '
       description: Provides the status of all clusters visible to this AWS account
