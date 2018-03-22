@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListInstances&k=1:
+  /?Action=ListInstances:
     get:
       summary: ' List Instances '
       description: "Provides information about the cluster instances that Amazon EMR
