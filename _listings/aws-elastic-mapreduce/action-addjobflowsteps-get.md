@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddJobFlowSteps&k=1:
+  /?Action=AddJobFlowSteps:
     get:
       summary: ' Add Job Flow Steps '
       description: AddJobFlowSteps adds new steps to a running job flow
