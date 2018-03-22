@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RunJobFlow&k=1:
+  /?Action=RunJobFlow:
     get:
       summary: ' Run Job Flow '
       description: RunJobFlow creates and starts running a new job flow
