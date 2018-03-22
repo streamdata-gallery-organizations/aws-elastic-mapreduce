@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelSteps&k=1:
+  /?Action=CancelSteps:
     get:
       summary: ' Cancel Steps '
       description: Cancels a pending step or steps in a running cluster
