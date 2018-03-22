@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeStep&k=1:
+  /?Action=DescribeStep:
     get:
       summary: ' Describe Step '
       description: Provides more detail about the cluster step
