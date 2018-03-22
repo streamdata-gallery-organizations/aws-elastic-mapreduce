@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=TerminateJobFlows&k=1:
+  /?Action=TerminateJobFlows:
     get:
       summary: ' Terminate Job Flows '
       description: TerminateJobFlows shuts a list of job flows down
