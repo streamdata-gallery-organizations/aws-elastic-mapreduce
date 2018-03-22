@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListSteps&k=1:
+  /?Action=ListSteps:
     get:
       summary: ' List Steps '
       description: Provides a list of steps for the cluster in reverse order unless
