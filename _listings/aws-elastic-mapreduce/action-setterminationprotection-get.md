@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetTerminationProtection&k=1:
+  /?Action=SetTerminationProtection:
     get:
       summary: ' Set Termination Protection '
       description: SetTerminationProtection locks a job flow so the EC2 instances
