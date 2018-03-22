@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeJobFlows&k=1:
+  /?Action=DescribeJobFlows:
     get:
       summary: ' Describe Job Flows '
       description: This API is deprecated and will eventually be removed
