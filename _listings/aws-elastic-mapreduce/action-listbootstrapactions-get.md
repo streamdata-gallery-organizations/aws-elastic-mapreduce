@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListBootstrapActions&k=1:
+  /?Action=ListBootstrapActions:
     get:
       summary: ' List Bootstrap Actions '
       description: Provides information about the bootstrap actions associated with
