@@ -5,7 +5,7 @@ description: This is a repository of aws elastic mapreduce APIs, self-contained 
   operations.
 image: http://template.streamdata.gallery/assets/aws-elastic-mapreduce.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://aws-elastic-mapreduce.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
